@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono:wght@100&display=swap");
+* {
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --mcolor: #aa28f0;
+}
+header {
+  background-color: var(--mcolor);
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 120px;
+  padding: 0px 20px;
+}
+.container {
+  min-height: calc(100vh - 45px - 7vh);
+}
+nav {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin: 0px 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+nav ul {
+  display: flex;
+  height: 45px;
+  align-items: center;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin: 0px 80px;
+}
+.search input {
+  height: 30px;
+  width: 360px;
+  outline: none;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  padding: 0px 10px;
+}
+.button {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+.button a img
+{
+    width: 30px;
+}
+main{
+    background-color: rgb(228, 227, 226);
+}
+.category
+{
+    background-color: white;
+    display: flex;
+}
+.cat{
+    height: 95px;
+    width: 5vw;
+    margin: 0px auto;
+    text-align: center;
+}
+.cat a:hover{
+    font-weight: bolder;
+    color: #aa28f0;
+}
+.cat img
+{
+    height: 60px;
+    width: 60px;
+}
+.cattext{
+    text-align: center;
+}
+.cat a
+{
+  text-decoration: none;
+  color: black;
+}
+.cat a label:hover
+{
+  cursor: pointer;
+}
+.slider{
+display: flex;
+justify-content: center;
+margin: 10px 0;
+}
+
+footer {
+  height: 7vh;
+  background-color: var(--mcolor);
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
